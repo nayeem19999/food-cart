@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    font-family: poppins;
+}
+.top-header{
+    background-color: #fff9ea;
+
+}
+.nav-container{
+    display: flex;
+    justify-content:space-between;
+    height: 90px;
+    align-items: center;
+}
+ul>li{
+    list-style: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav-menu{
+    display: flex;
+    gap: 30px;
+}
+.sign-in-btn{
+    padding: 8px 20px;
+    border-radius: 20px;
+    background-color: #ffcb45;
+    border: none;
+    font-weight: 600;
+}
+.nav-icon{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* hero section style */
+.hero-container{
+    background-image: url('../images/shapes.png');
+    height: 400px;
+    background-size:cover;
+    background-position: center;
+
+}
+.hero-parent{
+    /* width: 600px; */
+    display: flex;
+    justify-content: space-between;
+}
+.hero-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
